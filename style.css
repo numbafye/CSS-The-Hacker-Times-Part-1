@@ -9,6 +9,7 @@ header {
 body {
  font-family: Source Sans Pro;
  background-color: rgb(238, 238, 238);
+ 
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
  box-shadow: rgb(221, 221, 221);
  border-radius: 25px;
  padding: 1em;
+ margin: 1em 5em;
  
 }
 
