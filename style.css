@@ -7,8 +7,8 @@ header {
 
 
 body {
- font-family: Source Sans Pro;
- background-color: rgb(238, 238, 238);
+    font-family: Source Sans Pro;
+    background-color: rgb(238, 238, 238);
  
 }
 
@@ -24,25 +24,23 @@ nav {
 }
 
 .newspaper-container{
- background-color: white;
- box-shadow: rgb(221, 221, 221);
- border-radius: 25px;
- padding: 1em;
- margin: 1em 5em;
+    background-color: white;
+    box-shadow: rgb(221, 221, 221);
+    border-radius: 25px;
+    padding: 1em;
+    margin: 1em 5em;
  
 }
 
 li {
-display: inline-block;
-padding: 1vw;
+    display: inline-block;
+    padding: 1vw;
  
 }
 
 a {
     text-decoration: none;
     color: rgb(119, 119, 119);
-   
-    
 }
 
 h2, h4 {
@@ -56,10 +54,20 @@ h5 {
 
 .more-articles {
     display: inline-block;
+    text-align: left;
     border-top: .2em solid rgb(238, 238, 238);
-    
-
+    width: 50%;
+   
 }
+
+
+
+
+#pic1 {
+    display: inline-block;
+    width: 100%;
+}
+
 
 
 
