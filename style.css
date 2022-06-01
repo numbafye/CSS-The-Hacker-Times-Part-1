@@ -2,30 +2,62 @@
 
 header {
     font-family: Abril Fatface;
+    text-align: center;
 }
+
 
 body {
  font-family: Source Sans Pro;
- background-color: white;
+ background-color: rgb(238, 238, 238);
+}
+
+nav {
+    border-top: .2em solid rgb(238, 238, 238);
+    border-bottom: .2em solid rgb(238, 238, 238);
+    text-align: center;
 }
 
 .date {
     font-family: Source Sans Pro;
+    text-align: left;
 }
 
 .newspaper-container{
-
+ background-color: white;
+ box-shadow: rgb(221, 221, 221);
+ border-radius: 25px;
+ padding: 1em;
+ 
 }
 
 li {
-  display: inline;
- 
+display: inline-block;
+padding: 1vw;
  
 }
 
 a {
     text-decoration: none;
     color: rgb(119, 119, 119);
+   
     
 }
+
+h2, h4 {
+    font-family: Roboto Slab;
+}
+
+h5 {
+    font-family: Abril Fatface;
+    color: #dd3232;
+}
+
+.more-articles {
+    display: inline-block;
+    border-top: .2em solid rgb(238, 238, 238);
+    
+
+}
+
+
 
