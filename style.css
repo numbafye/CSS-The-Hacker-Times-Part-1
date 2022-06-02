@@ -5,6 +5,10 @@ header {
     text-align: center;
 }
 
+.date {
+    font-family: Source Sans Pro;
+    text-align: left;
+}
 
 body {
     font-family: Source Sans Pro;
@@ -24,11 +28,6 @@ nav {
     background: white;
     text-indent: 7px;
     
-}
-
-.date {
-    font-family: Source Sans Pro;
-    text-align: left;
 }
 
 .newspaper-container{
@@ -64,12 +63,18 @@ h5 {
 
 .more-articles {
     border-top: .2em solid rgb(238, 238, 238);
-    width: 50%;
    
 }
 
+.more-articles section {
+    display: inline-block;
+  width: 44%;
+  margin: 0 1em;
+
+}
 
 
+/* front page picture */
 #pic1 {
     display: inline-block;
     width: 100%;
