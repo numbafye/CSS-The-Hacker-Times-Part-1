@@ -16,9 +16,14 @@ body {
     
 }
 
-a {
+nav a {
     text-decoration: none;
     color: rgb(119, 119, 119);
+    font-size: 0.8em;
+}
+
+nav ul {
+    margin: 0;
 }
 
 nav {
@@ -26,7 +31,8 @@ nav {
     position: sticky;
     top: 0px;
     background: white;
-    text-indent: 7px;
+    margin: 0em;
+    padding: 5px;
     
 }
 
@@ -44,9 +50,9 @@ main {
     border-top: .2em solid rgb(238, 238, 238);
 }
 
-li {
+nav li {
     display: inline-block;
-   
+   padding: .5em;
 }
 
 
