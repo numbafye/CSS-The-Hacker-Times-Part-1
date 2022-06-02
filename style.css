@@ -9,13 +9,21 @@ header {
 body {
     font-family: Source Sans Pro;
     background-color: rgb(238, 238, 238);
- 
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
 }
 
 nav {
     border-top: .2em solid rgb(238, 238, 238);
-    border-bottom: .2em solid rgb(238, 238, 238);
-    text-align: center;
+    position: sticky;
+    top: 0px;
+    background: white;
+    text-indent: 7px;
+    
 }
 
 .date {
@@ -29,23 +37,25 @@ nav {
     border-radius: 25px;
     padding: 1em;
     margin: 1em 5em;
- 
+    width: 700px;
+    
+}
+
+main {
+    border-top: .2em solid rgb(238, 238, 238);
 }
 
 li {
     display: inline-block;
-    padding: 1vw;
- 
+   
 }
 
-a {
-    text-decoration: none;
-    color: rgb(119, 119, 119);
-}
 
 h2, h4 {
     font-family: Roboto Slab;
 }
+
+
 
 h5 {
     font-family: Abril Fatface;
@@ -53,13 +63,10 @@ h5 {
 }
 
 .more-articles {
-    display: inline-block;
-    text-align: left;
     border-top: .2em solid rgb(238, 238, 238);
     width: 50%;
    
 }
-
 
 
 
